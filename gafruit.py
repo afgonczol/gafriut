@@ -4,7 +4,7 @@ import random
 from operator import itemgetter
 
 #Read in image that will be recreated
-input_img = cv.imread(r"C:\Users\c62wt96\.spyder-py3\gafriut\shapes800300.png")
+input_img = cv.imread(r"input_img.png")
 orig_width = input_img.shape[1]
 orig_height = input_img.shape[0]
 
